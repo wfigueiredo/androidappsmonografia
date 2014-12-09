@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:id="@+id/tableLayout1"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    android:stretchColumns="*"> 
+     
+    <TableRow  
+        android:id="@+id/linha0"  
+        android:layout_height="wrap_content"  
+        android:layout_width="fill_parent"  
+        android:gravity="center_horizontal">
+          
+        <TextView  
+            android:layout_width="fill_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:textSize="18dp"  
+            android:text="@string/previsaoTempo"  
+            android:gravity="center"  
+            android:layout_span="4"/>
+          
+    </TableRow>
+      
+    <TableRow  
+        android:id="@+id/linha1"  
+        android:layout_height="wrap_content"  
+        android:layout_width="fill_parent">  
+        
+        <TextView  android:text=""/>
+          
+        <TextView  
+            android:text="@string/abril13"  
+            android:textStyle="bold"/>  
+        <TextView  
+            android:text="@string/abril14"  
+            android:textStyle="bold"/>  
+        <TextView  
+            android:text="@string/abril15"  
+            android:textStyle="bold" />  
+    </TableRow>
+      
+    <TableRow  
+        android:id="@+id/tableRow2"  
+        android:layout_height="wrap_content"  
+        android:layout_width="fill_parent">  
+        <TextView  
+            android:text="@string/climaDia"  
+            android:id="@+id/textView2"  
+            android:textStyle="bold"></TextView>  
+        <TextView  
+            android:id="@+id/textView3"  
+            android:text="@string/climaDia1"  
+            android:gravity="center_horizontal"></TextView>  
+        <TextView  
+            android:text="@string/climaDia2"  
+            android:id="@+id/textView4"  
+            android:gravity="center_horizontal"></TextView>  
+        <TextView  
+            android:text="@string/climaDia3"  
+            android:id="@+id/textView5"  
+            android:gravity="center_horizontal"></TextView>  
+    </TableRow>
+      
+    <TableRow  
+        android:layout_height="wrap_content"  
+        android:layout_width="fill_parent">  
+        <TextView  
+            android:text="@string/climaNoite"  
+            android:textStyle="bold"/>  
+        <TextView  
+            android:text="@string/climaNoite1"  
+            android:gravity="center_horizontal"/>  
+        <TextView  
+            android:text="@string/climaNoite2"  
+            android:gravity="center_horizontal"/>  
+        <TextView  
+            android:text="@string/climaNoite3"  
+            android:gravity="center_horizontal"/>  
+    </TableRow>
+      
+    <TableRow  
+        android:id="@+id/tableRow3"  
+        android:layout_height="wrap_content"  
+        android:layout_width="fill_parent"  
+        android:gravity="center">  
+        <TextView  
+            android:id="@+id/textView8"  
+            android:text="@string/condicoes"  
+            android:textStyle="bold"/>  
+        <ImageView
+            android:src="@drawable/partly_cloudy_icon"
+            android:contentDescription="@string/parcialmenteNublado"/>  
+        <ImageView
+            android:src="@drawable/cloudy_icon"
+            android:contentDescription="@string/nublado"/>  
+        <ImageView
+            android:src="@drawable/flurries_icon"
+            android:contentDescription="@string/granizo"/>  
+    </TableRow>
+      
+</TableLayout>  

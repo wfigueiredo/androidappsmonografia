@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ContentProviderTeste</string>
+    <string name="novo">Novo</string>
+    <string name="listaLivros">Lista de Livros</string>
+    <string name="titulo">Titulo</string>
+    <string name="autor">Autor</string>
+    <string name="descricao">Descrição</string>
+    <string name="informacoes">Informações sobre o livro</string>
+    <string name="ok">OK</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="excluir">Excluir</string>
+    <string name="confirmarDelecao">Este item será excluído. Prosseguir?</string>
+    <string name="delecaoSucesso">Item excluído com successo</string>
+</resources>

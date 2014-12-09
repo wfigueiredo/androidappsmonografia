@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ScrollViewTeste</string>
+    <string name="mgs4Logo">Metal gear solid 4 logo</string>
+    <string name="texto">
+        A guerra mudou. Não é mais sobre nações, ideologias, ou raça. É uma série interminável de batalhas terceirizadas
+		travadas por mercenários e máquinas. A guerra - e sua devastação de vidas - se tornou um negócio redondo.
+		A guerra mudou. Soldados com identificação carregam armas com identificação, usam equipamento com identificação.
+		Nanomáquinas em seus corpos melhoram e regulam suas habilidades. Controle genético. Controle de informações.
+		Controle de emoções. Controle do campo de batalha. Tudo monitorado e mantido sob controle.
+		A guerra mudou. A era da intimidação se tornou a era do controle&#8230;
+		Tudo em nome de evitar a catástrofe das armas de destruição em massa.
+		E aquele que controlar o campo de batalha, controla a História.
+		A guerra mudou. Quando o campo de batalha está sob controle total, a guerra se torna rotina..
+		\n\nNão sou herói&#8230; nunca fui&#8230; Sou só um velho matador&#8230; contratado pra fazer um trabalho de eliminação.
+   </string>
+</resources>

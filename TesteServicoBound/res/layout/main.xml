@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+   <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/serviceTitle" />
+    
+    <ImageView 
+        android:id="@+id/iniciar"
+        android:src="@drawable/start_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    />
+    
+    <ImageView 
+        android:id="@+id/parar"
+        android:src="@drawable/stop_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    />
+    
+    <ImageView 
+        android:id="@+id/buscar"
+        android:src="@drawable/exclamationmark_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    />
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SharedPreferencesTeste</string>
+    <string name="login">Login</string>
+    <string name="nomeDeUsuario">Nome de Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="ok">OK</string>
+    <string name="sair">Sair</string>
+    <string name="manterLogado">Mantenha-me Logado.</string>
+    <string name="bemVindo">Bem Vindo</string>
+    <string name="loginErro">Erro ao efetuar o Login</string>
+    <string name="loginErrorCausa">Nome de Usuário ou Senha incorretos. Tente novamente.</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, HandlerTestActivity!</string>
+    <string name="app_name">HandlerTeste</string>
+    <string name="bemVindo">Bem Vindo ao</string>
+    <string name="startingApp">Iniciando aplicação</string>
+    <string name="willTakeSeconds">Esta operação levará apenas alguns segundos&#8230;</string>
+</resources>

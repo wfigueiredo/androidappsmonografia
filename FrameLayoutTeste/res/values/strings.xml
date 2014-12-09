@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, FrameLayoutTestActivity!</string>
+    <string name="app_name">FrameLayoutTeste</string>
+    <string name="bgDescription">Jill Background</string>
+    <string name="androidIcone">Android Icon</string>
+    <string name="jill">Jill Valentine</string>
+    <string name="framelayoutIcone">FrameLayout Icon</string>
+    <string name="frameLayoutBackground">FrameLayout Background</string>
+</resources>

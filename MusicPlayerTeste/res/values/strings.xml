@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MusicPlayerTest</string>
+    <string name="songAlbumArtDesc">songAlbumArtDesc</string>
+    <string name="appLogoDesc">appLogoDesc</string>
+    <string name="myAudioPlayer">My Audio Player</string>
+</resources>

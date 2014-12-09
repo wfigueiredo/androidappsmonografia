@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BoundServiceTest</string>
+    <string name="serviceTitle">Clique nos icones abaixo para Iniciar/Reiniciar, Parar ou Buscar informações</string>
+    <string name="startService">Iniciar/Reiniciar Serviço</string>
+    <string name="stopService">Parar Serviço</string>
+    <string name="fetchService">Buscar Titulo</string>
+</resources>

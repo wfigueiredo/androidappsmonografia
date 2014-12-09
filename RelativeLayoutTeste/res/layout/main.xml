@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+    <TextView android:id="@+id/label" 
+              android:layout_width="fill_parent" 
+              android:layout_height="wrap_content" 
+              android:text="@string/digitarEmail" />
+
+    <EditText android:id="@+id/editTextEmail" 
+              android:layout_width="fill_parent" 
+              android:layout_height="wrap_content" 
+              android:hint="@string/digitarEmail"
+              android:layout_below="@id/label" />
+  
+    <Button android:id="@+id/submit" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:layout_below="@id/editTextEmail"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dp"
+            android:text="@string/ok" />
+
+    <Button android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/submit"
+            android:layout_alignTop="@id/submit"
+            android:text="@string/cancelar" />
+    
+</RelativeLayout>

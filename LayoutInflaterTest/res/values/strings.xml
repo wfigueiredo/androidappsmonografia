@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, LayoutInflaterTestActivity!</string>
+    <string name="app_name">LayoutInflaterTest</string>
+    <string name="iconDescription">Android Logo</string>
+    <string name="android">Android</string>
+    <string name="androidTitle">Android</string>
+    <string name="ics">v4.0 - Ice Cream Sandwich</string>
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="6dip" >
+
+     <ImageView
+      	android:id="@+id/videoThumbnail"
+      	android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="10dip"
+      	android:contentDescription="@string/videoIconDesc" />
+
+     <TextView
+         android:id="@+id/videoSize"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/videoName"
+         android:layout_marginBottom="10dip"
+         android:layout_marginLeft="15dip"
+         android:layout_marginTop="10dip"
+         android:layout_toRightOf="@+id/videoThumbnail"
+         android:ellipsize="marquee"
+         android:singleLine="true"
+         android:textColor="#0099CC"
+         android:textSize="15dip" />
+     
+     <TextView  
+         android:id="@+id/videoDuration"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/videoName"
+         android:layout_marginBottom="10dip"
+         android:layout_marginLeft="15dip"
+         android:layout_marginTop="10dip"
+         android:layout_toRightOf="@+id/videoSize"
+         android:ellipsize="marquee"
+         android:singleLine="true"
+         android:textColor="#3474E3"
+         android:textSize="15dip" />
+
+    <TextView
+        android:id="@+id/videoName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/videoThumbnail"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="15dip"
+        android:singleLine="true"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textSize="20dip" />
+		
+</RelativeLayout >

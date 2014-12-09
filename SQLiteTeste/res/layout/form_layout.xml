@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <TextView 
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textSize="15dip"
+        android:textStyle="bold" />
+    
+    <EditText 
+        android:id="@+id/nameInput"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:hint="@string/name"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="7dip"
+        android:layout_marginBottom="10dip"/>
+    
+    <TextView 
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/companyTitle"
+        android:layout_below="@+id/nameInput"
+        android:textSize="15dip"
+        android:textStyle="bold" />
+    
+    <EditText 
+        android:id="@+id/companyInput"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:hint="@string/companyTitle"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="7dip"
+        android:layout_marginBottom="10dip"/>
+    
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/companyInput"
+        android:layout_alignParentRight="true"
+        android:width="80dp"
+        android:text="@string/submit"/>
+    
+</RelativeLayout>

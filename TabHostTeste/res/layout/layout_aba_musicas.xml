@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#FFFFFF">
+    
+	<ImageView
+        android:id="@+id/background"	
+        android:src="@drawable/music_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:contentDescription="@string/musicas"
+    />
+	
+	<TextView  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:text="@string/musicas"  
+        android:layout_gravity="bottom|right"
+        android:gravity="right"  
+        android:textColor="#A6A4A5"  
+        android:textSize="50dp" />  
+    
+</FrameLayout>
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TableLayoutTeste</string>
+    <string name="previsaoTempo">Tabela de Previsão do Tempo</string>
+    <string name="climaDia">Clima (manhã)</string>
+    <string name="climaNoite">Clima (noite)</string>
+    <string name="condicoes">Condições</string>
+    <string name="climaDia1">25°C</string>
+    <string name="climaDia2">22°C</string>
+    <string name="climaDia3">20°C</string>
+    <string name="climaNoite1">24°C</string>
+    <string name="climaNoite2">21°C</string>
+    <string name="climaNoite3">19°C</string>
+    <string name="abril13">Abr 13</string>
+    <string name="abril14">Abr 14</string>
+    <string name="abril15">Abr 15</string>
+    <string name="nublado">Nublado</string>
+    <string name="granizo">Granizo</string>
+    <string name="parcialmenteNublado">Parcialmente Nublado</string>
+</resources>

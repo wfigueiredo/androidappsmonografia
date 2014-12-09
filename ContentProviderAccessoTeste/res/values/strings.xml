@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ContentProviderAcessoTeste</string>
+    <string name="iconeLivro">Icone Livro</string>
+    <string name="estoque">Estoque</string>
+    <string name="listarEstoque">Listar Estoque</string>
+    <string name="descricao">Clique no botão abaixo para buscar informações de livros cadastrados em estoque</string>
+</resources>

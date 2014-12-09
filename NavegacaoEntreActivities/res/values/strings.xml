@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NavegacaoEntreActivities</string>
+    <string name="clickAndroid">Clique no logotipo do Android para prosseguir para a proxima tela</string>
+    <string name="androidPoster">Android Poster.</string>
+    <string name="efetuarLigacao">Efetuar Ligacao</string>
+</resources>

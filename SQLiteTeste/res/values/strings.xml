@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SQLiteTest</string>
+    <string name="addNew">Add New</string>
+    <string name="systemsList">Mobile systems List</string>
+    <string name="name">Name</string>
+    <string name="companyTitle">Company</string>
+    <string name="submit">Submit</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="confirmDelete">This item will be deleted. Proceed?</string>
+    <string name="deleteSuccessful">Item deleted successfully</string>
+
+</resources>

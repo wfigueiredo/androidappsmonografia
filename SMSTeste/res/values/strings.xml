@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SMSTeste</string>
+    <string name="recipiente">Recipiente</string>
+    <string name="mensagem">Mensagem</string>
+    <string name="toqueParaEscreverMensagem">Toque na tela para escrever a mensagem</string>
+    <string name="enviar">Enviar</string>
+    <string name="envieSms">Serviço de SMS</string>
+    <string name="mensagemEnviada">Mensagem Enviada!</string>
+    <string name="enviarOutraMensagem">Enviar outra Message</string>
+    <string name="de">De:</string>
+    <string name="numero">Numero:</string>
+    <string name="mensagemRecebida">Você recebeu uma mensagem</string>
+    <string name="mensagemProveniente">Mensagem proveniente de:</string>
+    <string name="excedidoMaxCaracteres">A Mensagem excedeu o limite de caracteres!</string>
+</resources>

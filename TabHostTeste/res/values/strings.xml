@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TabHostTeste</string>
+    <string name="musicas">Musicas</string>
+    <string name="fotos">Fotos</string>
+    <string name="videos">Videos</string>
+</resources>

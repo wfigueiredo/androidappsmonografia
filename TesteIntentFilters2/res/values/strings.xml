@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, IntentFilterTest2Activity!</string>
+    <string name="app_name">IntentFilterTest2</string>
+    <string name="titulo">Sua face se assemelha a esta:</string>
+    <string name="abrirFaceOutraApp">Abrir face indiferente em outra app</string>
+</resources>

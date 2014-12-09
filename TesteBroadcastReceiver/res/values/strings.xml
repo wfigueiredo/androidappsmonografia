@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="clickButton">Click on Button below to load another app!</string>
+    <string name="app_name">BroadcastReceiverTest</string>
+    <string name="broadcastMessage">Send Broadcast message</string>
+    <string name="OrdinaryBroadcastReceiver">OrdinaryBroadcastReceiver</string>
+</resources>

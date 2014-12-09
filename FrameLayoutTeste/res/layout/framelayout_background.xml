@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+	<ImageView
+        android:id="@+id/background"	
+        android:src="@drawable/jill_bsaa"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:contentDescription="@string/bgDescription"
+    />
+	
+	<TextView  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:text="@string/jill"  
+        android:layout_gravity="bottom"  
+        android:gravity="right"  
+        android:textColor="#D4CDD0"  
+        android:textSize="50dp" />  
+    
+</FrameLayout>

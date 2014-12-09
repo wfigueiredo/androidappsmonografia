@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+	<ImageView
+        android:id="@+id/smsIcon"
+        android:src="@drawable/sms_icon" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/envieSms"
+        android:layout_marginLeft="5dip"  
+        android:layout_marginTop="10dip"/>
+    
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mensagem" 
+        android:layout_toRightOf="@+id/smsIcon"
+        android:layout_marginTop="10dip"  
+        android:layout_marginLeft="10dip"
+        android:layout_alignBottom="@+id/smsIcon"  
+        android:textColor="#948D8F"  
+        android:textSize="40dp" />
+    
+    <TextView
+        android:id="@+id/from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/de" 
+        android:layout_marginTop="15dip"  
+   		android:layout_below="@+id/smsIcon" 
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:textStyle="bold"
+        android:textColor="#948D8F"  
+        android:textSize="20dp" />
+    
+    <TextView
+        android:id="@+id/fromName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"  
+        android:layout_toRightOf="@+id/from"  
+   		android:layout_below="@+id/title" 
+        android:textColor="#EDE4E7"  
+        android:textSize="20dp" />
+    
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/numero" 
+        android:layout_marginTop="15dip"  
+   		android:layout_below="@+id/from" 
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:textStyle="bold"
+        android:textColor="#948D8F"  
+        android:textSize="20dp" />
+    
+    <TextView
+        android:id="@+id/fromNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"  
+        android:layout_toRightOf="@+id/number"  
+   		android:layout_below="@+id/fromName" 
+        android:textColor="#EDE4E7"  
+        android:textSize="20dp" />
+    
+    <TextView 
+        android:id="@+id/titleSeparator"
+   		android:layout_width="fill_parent" 
+   		android:layout_height="0.7dp" 
+   		android:background="#948D8F"
+   		android:layout_below="@+id/fromNumber" 
+   		android:layout_marginTop="10dp"
+   		android:layout_marginBottom="10dp" 
+   		android:layout_marginLeft="5dp"
+   		android:layout_marginRight="5dp"/>
+    
+    <TextView
+        android:id="@+id/messageBody"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+   		android:layout_below="@+id/titleSeparator" 
+        android:textColor="#EDE4E7"  
+        android:textStyle="bold"
+        android:textSize="15dp" />
+    
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <ImageView
+        android:id="@+id/smsIcon"
+        android:src="@drawable/sms_icon" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/envieSms"
+        android:layout_marginLeft="5dip"  
+        android:layout_marginTop="10dip"/>
+    
+    <TextView
+        android:id="@+id/smsSender"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/envieSms" 
+        android:layout_toRightOf="@+id/smsIcon"
+        android:layout_marginTop="10dip"  
+        android:layout_marginLeft="10dip"
+        android:layout_alignTop="@+id/smsIcon"  
+        android:textColor="#948D8F"  
+        android:textSize="40dp" />
+    
+    <TextView 
+        android:id="@+id/titleSeparator"
+   		android:layout_width="fill_parent" 
+   		android:layout_height="0.7dp" 
+   		android:background="#948D8F"
+   		android:layout_below="@+id/smsSender" 
+   		android:layout_marginTop="10dp"
+   		android:layout_marginBottom="10dp" 
+   		android:layout_marginLeft="5dp"
+   		android:layout_marginRight="5dp"/>
+    
+    <TextView 
+        android:id="@+id/recipient"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"  
+   		android:layout_below="@+id/titleSeparator" 
+        android:text="@string/recipiente"
+        android:textSize="15dip"
+        android:textStyle="bold" />
+    
+    <EditText 
+        android:id="@+id/recipientInput"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:hint="@string/recipiente"
+        android:layout_below="@+id/recipient"
+        android:layout_marginTop="7dip"
+        android:layout_marginBottom="10dip"/>
+    
+    <TextView 
+        android:id="@+id/message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mensagem"
+        android:layout_below="@+id/recipientInput"
+        android:textSize="15dip"
+        android:textStyle="bold" />
+    
+    <EditText 
+        android:id="@+id/messageInput"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:lines="7" 
+        android:hint="@string/toqueParaEscreverMensagem"
+        android:layout_below="@+id/message"
+        android:layout_marginTop="7dip"
+        android:layout_marginBottom="10dip"/>
+    
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/messageInput"
+        android:layout_alignParentRight="true"
+        android:width="80dp"
+        android:text="@string/enviar"/>
+    
+</RelativeLayout>

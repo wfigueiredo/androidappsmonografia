@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, LinearLayoutTestActivity!</string>
+    <string name="app_name">LinearLayoutTest</string>
+    <string name="re3Logo">RE3Logo</string>
+    <string name="re4Logo">RE4Logo</string>
+    <string name="re5Logo">RE5Logo</string>
+    <string name="text1">weight 20%</string>
+    <string name="text2">weight 35%</string>
+    <string name="text3">weight 50%</string>
+    <string name="linearlayoutHorizontal">LinearLayout Horizontal</string>
+    <string name="linearlayoutVertical">LinearLayout Vertical</string>
+    <string name="linearLayoutweight">LinearLayout Weight</string>
+	
+</resources>

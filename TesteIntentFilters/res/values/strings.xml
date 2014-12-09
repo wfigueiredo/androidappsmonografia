@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Teste Intent Filters</string>
+    <string name="escolherSentimento">Como se sente agora?</string>
+    <string name="feliz">Feliz!</string>
+    <string name="triste">Triste....</string>
+    <string name="indiferente">Indiferente.</string>
+    <string name="titulo">Sua face se assemelha a esta:</string>
+    <string name="activityFeliz">Activity Feliz</string>
+    <string name="activityTriste">Activity Triste</string>
+    <string name="activityIndiferente">Activity Indiferente</string>
+</resources>

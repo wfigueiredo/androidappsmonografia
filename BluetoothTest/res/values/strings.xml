@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BluetoothTest</string>
+    <string name="app_logo">App Logo</string>
+    <string name="pictureDesc">Picture</string>
+    <string name="bluetoothDevices">Bluetooth Devices</string>
+</resources>

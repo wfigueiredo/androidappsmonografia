@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView 
+        android:id="@+id/login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+   		android:layout_marginLeft="5dp"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+       
+    <TextView 
+        android:id="@+id/lineSeparator"
+   		android:layout_width="fill_parent" 
+        android:layout_below="@+id/login"
+   		android:layout_height="2dp" 
+   		android:background="#0099CC" 
+   		android:layout_marginTop="10dp"
+   		android:layout_marginBottom="10dp" 
+   		android:layout_marginLeft="3dp"
+   		android:layout_marginRight="2dp"/>
+    
+    <TextView 
+        android:id="@+id/username"
+        android:layout_below="@+id/lineSeparator"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nomeDeUsuario"
+        android:textSize="15dip"
+        android:textStyle="bold" />
+    
+    <EditText 
+        android:id="@+id/usernameInput"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:hint="@string/nomeDeUsuario"
+        android:layout_below="@+id/username"
+        android:layout_marginTop="7dip"
+        android:layout_marginBottom="10dip"/>
+    
+    <TextView 
+        android:id="@+id/password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/senha"
+        android:layout_below="@+id/usernameInput"
+        android:textSize="15dip"
+        android:textStyle="bold" />
+    
+    <EditText 
+        android:id="@+id/passwordInput"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:hint="@string/senha"
+        android:inputType="textPassword"
+        android:layout_below="@+id/password"
+        android:layout_marginTop="7dip"
+        android:layout_marginBottom="10dip"/>
+    
+    <Button
+        android:id="@+id/submitLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordInput"
+        android:layout_alignParentRight="true"
+        android:width="80dp"
+        android:text="@string/ok"/>
+    
+    <CheckBox 
+        android:id="@+id/keepLoggedIn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/submitLogin"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dip"
+        android:text="@string/manterLogado" />
+
+</RelativeLayout>

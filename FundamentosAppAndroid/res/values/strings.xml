@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, AndroidAppBasicsActivity!</string>
+    <string name="app_name">AndroidAppBasics</string>
+    <string name="android">Android</string>
+    <string name="ios">iOS</string>
+    <string name="email">Digite seu email aqui</string>
+    <string name="ok">OK</string>
+    <string name="anexarArquivo">Anexar arquivo</string>
+    <string name="wifi_habilitado">Wi-Fi Habilitado</string>
+    <string name="wifi_desabilitado">Wi-Fi Desabilitado</string>
+    <string name="selecione_seu_sistema">Selecione seu sistema</string>
+</resources>

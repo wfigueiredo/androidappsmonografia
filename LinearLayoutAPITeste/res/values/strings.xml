@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, LinearLayoutTestActivity!</string>
+    <string name="app_name">LinearLayoutTest</string>
+    <string name="re3Logo">RE3Logo</string>
+    <string name="re4Logo">RE4Logo</string>
+    <string name="re5Logo">RE5Logo</string>
+	
+</resources>

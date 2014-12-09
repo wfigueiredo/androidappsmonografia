@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TesteNotificacoes</string>
+    <string name="mgs2Text1">
+        Raiden tem de encontrar Snake e seus equipamentos antes de pegar um resfriado e ser descoberto pelos inimigos, 
+        que agora estão bem mais rápidos e letais. Quando estiver livre, derrube a porta do armário junto à porta para pegar uma Medicine. 
+        Na sala adjacente, acione o Node para ver o mapa da área. Entre pela porta ao lado e acesse o Arsenal Gear, Jejunum. 
+        O lugar está sob forte vigilância de soldados e câmeras de segurança. 
+        Caso você seja descoberto, volte correndo para a câmera de tortura e recoste-se na máquina onde estava preso. 
+        Se um guarda aparecer para investigar, permaneça parado e ele não suspeitará de sua liberdade.
+        Discretamente, suba pelo lance de escadas à direita e atravesse para o outro lado do andar, onde encontrará a Cardboard Box 5. 
+        Com ela, siga para a plataforma ao fundo e passe pela vigilância do guarda, estudando antes seus movimentos de ronda. 
+        Depois, use o disfarce de caixa para passar pela câmera de vigilância. Quando a câmera virar o foco de visão, avance. 
+        E quando ela virar novamente, use a caixa e fique parado. 
+        Chegando ao final da plataforma, siga para o lado direito e encontre um corredor que dará acesso ao Arsenal Gear, Ascending Colon.
+    </string>
+    <string name="mgs2Text2">
+        Chegando ao outro extremo do corredor, Otacon dirá a Raiden que ele estava recebendo informações da inteligência artificial GW. 
+        As nanomachines do corpo de Raiden associadas ao treinamento VR que retratava os acontecimentos de Shadow Moses fizeram com que ele 
+        acreditasse que o coronel Campbell e tudo mais fossem uma fantasia que o estava manipulando. 
+        Descobrindo a verdade, Raiden já não sabe mais o que é real ou verdadeiro, mas Snake tenta ajudá-lo 
+        (o suposto coronel Campbell diz que está mantendo Rose como refém).
+		Chegando na sala adiante, Raiden e Snake são cercados por solados munidos de espadas e armas. Começa mais uma batalha sangrenta. 
+		O padrão é o mesmo da área anterior – a diferença é ter de de sobreviver aos ataques. 
+		Mantenha-se longe de Solid Snake e ataque os inimigos, seja usando a espada ou uma arma. A escolha é sua. 
+		Durante a batalha, mesmo estando vivo, aparecerá uma tela parecida com a de Game Over. 
+		Não se deixe enganar: é a mente de Raiden sendo manipulada.
+    </string>    
+</resources>

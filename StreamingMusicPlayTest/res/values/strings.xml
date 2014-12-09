@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="screenTitle1">Click on image to start the music play!</string>
+    <string name="screenTitle2">Bound Services (Background Music playing)</string>
+    <string name="app_name">BoundServicesTest</string>
+
+</resources>

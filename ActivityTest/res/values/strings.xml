@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ActivityTestActivity!</string>
+    <string name="app_name">ActivityTest</string>
+    <string name="clickAndroid">Click on Android logo to proceed to next screen.</string>
+    <string name="androidPoster">An Android Poster.</string>
+    <string name="makeCall">Make Phone Call</string>
+
+</resources>

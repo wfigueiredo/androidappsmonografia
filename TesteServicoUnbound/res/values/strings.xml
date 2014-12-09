@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="displayImage">A imagem baixada é disposta a seguir:</string>
+    <string name="app_name">TesteServicoUnbound</string>
+    <string name="textoCliqueDownload">Clique no botão abaixo para iniciar o download</string>
+    <string name="download">Download</string>
+</resources>

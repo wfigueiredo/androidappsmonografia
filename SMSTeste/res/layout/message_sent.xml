@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+	<TextView
+        android:id="@+id/smsSent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mensagemEnviada" 
+        android:layout_marginTop="30dip"  
+        android:gravity="center_horizontal"
+        android:textColor="#948D8F"  
+        android:textSize="45dp" />
+	
+	<ImageView
+        android:id="@+id/smsAndroidIcon"
+        android:src="@drawable/android_sms_icon" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@string/envieSms"
+        android:layout_marginLeft="5dip"  
+        android:layout_marginTop="10dip"/>
+	
+	<Button
+        android:id="@+id/sendAnotherMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="@string/enviarOutraMensagem"/>
+    
+</FrameLayout>

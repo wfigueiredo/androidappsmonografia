@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+     <LinearLayout
+        android:id="@+id/group"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="vertical">
+
+        <TextView 
+	        android:id="@+id/title"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/listaLivros"
+    		android:layout_marginLeft="5dp"
+	        android:textSize="20dp"
+	        android:textStyle="bold" />
+        
+        <TextView 
+    		android:layout_width="fill_parent" 
+    		android:layout_height="2dp" 
+    		android:background="#0099CC" 
+    		android:layout_marginTop="10dp"
+    		android:layout_marginBottom="10dp" 
+    		android:layout_marginLeft="3dp"
+    		android:layout_marginRight="2dp"/> 
+        
+        <Button
+            android:id="@+id/addNew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/novo"/> 
+        
+    </LinearLayout>
+    
+     <ListView
+        android:id="@+id/bookList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</LinearLayout>
